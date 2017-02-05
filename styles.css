@@ -1,0 +1,100 @@
+/* Example 26-13: styles.css */
+
+* {
+  font-family:georgia,verdana,sans-serif;
+  font-size  :14pt;
+}
+
+body {
+  width     :700px;
+  margin    :20px auto;
+  background:#fff;
+  border    :1px solid #888;
+}
+
+html {
+  background:#fff
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+}
+
+li a, .button {
+  text-decoration:none;
+}
+
+li a:hover, .button:hover {
+  color:green;
+}
+
+.appname {
+  text-align :center;
+  background :darkgray;
+  color      :#000;
+  font-size  :10pt;
+  padding    :14px;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.main {
+  margin-left:40px;
+}
+
+.info {
+  background :#9e6868;
+  color      :white;
+	border     :1px solid rgba(0,0,0,0.5);
+	padding    :5px 10px;
+    border-radius: 2px;
+  margin-left:40px;
+}
+
+.menu li, .button {
+  display           :inline;
+  padding           :4px 6px;
+  border            :1px solid rgba(0,0,0,0.5);
+  background        :#fafafa;
+	color             :#333 !important;
+  margin-right      :8px;
+	border-radius     :2px;
+	-moz-box-shadow   :1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.1);
+	box-shadow        :1px 1px 2px rgba(0,0,0,0.1);
+}
+
+a {
+    color:#333 !important;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+#logo {
+  font-family:Georgia;
+  font-weight:bold;
+  font-style:italic;
+  font-size :97px;
+}
